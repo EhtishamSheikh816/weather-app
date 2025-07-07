@@ -22,7 +22,7 @@ const weather = () => {
       getSec2.innerHTML = `<div class="weather-info">
           <h1>${data.name}</h1>
           <div class="emoji">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfC399Np2ZMD2Le2_A2HIOG1-xc4tXU9V6yE-fXAKovmETUvqyE1AH42qGE-bvsTtUw0&usqp=CAU"/>
+          <img src="images/mist.png" alt+"weather Condition/>
           </div>
           <div class="temp">${data.main.temp}°C</div>
           <div class="description">${data.weather[0].main}</div>
